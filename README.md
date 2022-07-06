@@ -1,5 +1,38 @@
 # Autocomplete e Autocorrect
 
+# Avaliação
+
+## Geral
+
+G1. Implementção e Uso das Classes Especificadas | 3/10 pontos
+- Observações: Vocês implementaram praticamente apenas a classe "Dados" que não está de acordo com a modelagem especificada. Ela deveria receber por parâmetro os argumentos do main
+
+G2. Implementação da Interface textual Especificada | 0/10 pontos
+- Observações:
+
+G3. Implementação da solução de auto complete | 2/10 pontos
+- Observações: Aparentemente vocês começaram com a ideia mas não terminaram.
+
+G4. Implementação da solução de auto correct | 0/10 pontos
+- Observações:
+
+G5. Método de validação das implementações | 0/10 pontos
+- Observações:
+
+G6. Penalidades por violação na especificação | -15/-25 pontos
+- Observações: Aqui vocês cometeram diversos erros de modelagem, (1) o atributo está público, o que diz claramente na especificação que não é permitido; (2) o método Compt_comp::Compt_comp recebe Dados por cópia, deveria ser por referencia, veja que isso é só uma questão de atenção mas é uma atenção que vocês tem que ter; 
+
+## Código
+
+C1. Documentação do código e readme | 0/10 pontos
+- Observações: Não vou aceitar a documentação não padronizada; não teve readme
+
+C2. Organização e indentação do código | 0/10 pontos
+- Observações: Existem muitos erros de indentação, veja que isso só ocorre quando vocês não tem tempo hábil para dedicar ao trabalho uma vez que qualquer um pode notar que tem algo muito errado com a forma do código. Veja que isso é realmente importante! Simplesmente não tem sentido e eu também não consido entender como vocês conseguem programar na bagunça que fica o código dessa forma, vocês realmente precisam corrigir isso, nem mesmo quando estamos fazendo draft o código fica assim!
+
+C3. Compilação automatizada (obrigatória) | nok
+- Observações:
+
 ### Sumário
 1. [Introdução](#1-introdução)
 2. [Autocomplete vs Autocorrect](#2-autocomplete-vs-autocorrect)
